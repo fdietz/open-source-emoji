@@ -8,15 +8,17 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Open source Emoji plugin.
+Emoji support for your blog with no copyright problems.
 
 == Description ==
 
-This plugin uses open source Emoji so it's fully legal to use without breaching copyright of Emoji artworks. 
+This plugin uses open source Emoji sets so it's legal to use without breaching copyright of Emoji artworks. 
 
 Choose between the Android style and the full colour [Phantom](http://www.kickstarter.com/projects/374397522/phantom-open-emoji) set.
 
-All Emoji on your pages are converted to visible icons, not just the ones you add in your posts.
+Add Emoji to your posts using shortcodes like `[emoji hamburger]`
+
+All Emoji on your pages are converted to visible icons.
 
 Built by [timwhitlock](https://twitter.com/timwhitlock)
 
@@ -51,6 +53,9 @@ The Phantom Emoji set uses fixed size images at 22px.  I'm working on making the
 
 The Android Emoji is scalable because it's a font. If the fixed size Emoji don't work for you, consider using that.
 
+= Will you support Apple style icons? =
+
+No. They are copyright of Apple, so I can't distribute them
 
 = Are these FAQs complete? =
 
