@@ -1,0 +1,23 @@
+/**
+ * Open Source Emoji admin styles     
+ */
+
+table.os-emoji {
+    width: 967px;
+}
+
+table.os-emoji td {
+    font-size: 16px;
+}
+
+table.os-emoji td a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+}
+
+table.os-emoji td a:hover {
+    color: #000;
+}
+
+
