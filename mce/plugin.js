@@ -20,12 +20,12 @@
                 }, {
                     plugin_url : jsRoot
                 });
-            });
+            }),
 
             // Register emoji button
             ed.addButton( pluginId, {
                 title : pluginName,
-                cmd : pluginId,
+                cmd : pluginId
             } );
         },
         getInfo : function() {
@@ -35,7 +35,7 @@
                 authorurl : 'http://timwhitlock.info'
             };
         }
-    });
+    } );
 
     // Register emoji plugin
     tinymce.PluginManager.add( 'os_emoji', tinymce.plugins.os_emoji );    

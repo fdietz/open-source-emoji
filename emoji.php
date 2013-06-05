@@ -109,7 +109,7 @@ function os_emoji_enqueue_scripts(){
         $hook = 'os-emoji';
     }
     extract( _os_emoji_config() );
-    $js = plugins_url( 'pub/js/emoji.js', __FILE__ )
+    $js = plugins_url( 'pub/js/emoji.min.js', __FILE__ )
         .'?theme='.apply_filters( 'emoji_theme', $theme );
     wp_enqueue_script( $hook, $js, array(), false, true );    
 }

@@ -1,20 +1,19 @@
 /**
  * Emojify all text nodes in a document
  * @author Tim Whitlock
- * @license MIT
  */
 ( function( window, document, phantom ){
     
     // find our own url amongst script sources
     //
     function myUrl(){
-        var i = -1, src,
-            baseurl = '/emoji.js',
+        var i = -1,
+            baseurl = '',
             scripts = document.documentElement.getElementsByTagName('script');
         while( ++i < scripts.length ){
-            src = scripts[i].getAttribute('src');
-            if( src && src.indexOf(baseurl) !== -1 ){
-                return src;
+            baseurl = scripts[i].getAttribute('src');
+            if( baseurl && /js\/emoji(\.min)?\.js/.test(baseurl) ){
+                return baseurl;
             }
         }
         return baseurl;
@@ -230,7 +229,7 @@
         // load CSS and Emoji fonts if needed and not already loaded
         if( emojifyCount && ! window.OSEmojiLoaded ){
             var link = createElement('','','link');
-            link.setAttribute('href', confScript.replace('/js/emoji.js','/css/emoji-'+confTheme+'.css') );
+            link.setAttribute('href', confScript.replace(/\/js\/emoji(\.min)?\.js/,'/css/emoji-'+confTheme+'.css') );
             link.setAttribute('rel','stylesheet');
             head.appendChild( link );
             window.OSEmojiLoaded = true;
