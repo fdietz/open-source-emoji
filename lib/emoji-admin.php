@@ -11,7 +11,7 @@
  */
 function os_emoji_admin_render_header( $subheader, $css = '' ){
     ?>
-     <div class="wrap">
+     <div class="wrap emoji-25">
         <h2><?php echo esc_html__('Open Source Emoji')?></h2>
         <?php if( $subheader ):?> 
         <div class="<?php echo $css?>">
@@ -29,7 +29,7 @@ function os_emoji_admin_render_header( $subheader, $css = '' ){
 function os_emoji_admin_render_footer(){
     ?>
     </div>
-    <div class="wrap">
+    <div class="wrap emoji-25">
         <h3>
             Available icons:
         </h3>

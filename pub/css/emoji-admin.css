@@ -12,12 +12,18 @@ table.os-emoji td {
 
 table.os-emoji td a {
     display: block;
-    color: #666;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #444;
     text-decoration: none;
+    min-height: 30px;
+    min-width: 26px;
 }
 
 table.os-emoji td a:hover {
     color: #000;
 }
+
 
 
