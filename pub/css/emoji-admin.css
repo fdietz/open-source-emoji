@@ -1,0 +1,32 @@
+/**
+ * Open Source Emoji admin styles     
+ */
+
+table.os-emoji {
+    width: 100%;
+}
+
+table.os-emoji td {
+    font-size: 16px;
+}
+
+table.os-emoji td a {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #444;
+    text-decoration: none;
+    min-height: 30px;
+    min-width: 26px;
+}
+
+table.os-emoji td a:hover {
+    color: #000;
+}
+
+
+/* tinymce editor */
+.wp_themeSkin span.mceIcon.mce_os_emoji {
+    background: transparent url(../../mce/plugin.png) 0 0 no-repeat;
+}

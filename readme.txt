@@ -4,19 +4,22 @@ Donate link: http://timwhitlock.info/donate-to-a-project/
 Tags: emoji, emoticons, icons, android, phantom, shortcode, unicode
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 1.0.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Open source Emoji plugin.
+Emoji support for your blog with no copyright problems.
 
 == Description ==
 
-This plugin uses open source Emoji so it's fully legal to use without breaching copyright of Emoji artworks. 
+This plugin uses open source Emoji sets, so it's legal to use without breaching copyright of Emoji artworks. 
 
 Choose between the Android style and the full colour [Phantom](http://www.kickstarter.com/projects/374397522/phantom-open-emoji) set.
 
-All Emoji on your pages are converted to visible icons, not just the ones you add in your posts.
+All Emoji in your pages are converted to visible icons, even on devices that don't support Emoji.
+
+Add Emoji to your posts using shortcodes like `[emoji hamburger]`
+
 
 Built by [timwhitlock](https://twitter.com/timwhitlock)
 
@@ -25,13 +28,16 @@ Built by [timwhitlock](https://twitter.com/timwhitlock)
 
 1. Unzip all files to the `/wp-content/plugins/` directory
 2. Log into Wordpress admin and activate the 'Open Source Emoji' plugin through the 'Plugins' menu
-3. Go to *Settings > OS Emoji* to change the Emoji icon styles.
+3. Go to *Settings > OS Emoji* to change the icon style and see supported characters.
 
-= Adding Emoji to your posts =
+= Adding Emoji to your pages =
 
-To enter Emoji into your posts, use the [emoji ..] shortcode with the name of the Emoji following it. e.g. `[emoji cat face]`.
+This plugin converts Emoji appearing anywhere on your pages, but Wordpress won't allow you to save Emoji characters in your posts.
 
-See the [full list of supported Emoji codes](http://apps.timwhitlock.info/emoji/tables/unicode). Enter the description that appears in the right hand column.
+To enter Emoji characters into your posts, use the [emoji ..] shortcode with the name of the Emoji following it. e.g. `[emoji cat face]`.
+
+When editing a post you will see a pink smiling face icon in the first row of buttons in the text editor - click this to insert Emoji shortcodes.
+
 
 == Frequently Asked Questions ==
 
@@ -47,10 +53,19 @@ The Phantom Emoji set is very new and the team are still adding new icons. Keep 
 
 =  Why do the icons appear the wrong size compared to my text? =
 
-The Phantom Emoji set uses fixed size images at 22px.  I'm working on making them scalable.
+The Android font will scale with your text, but the Phantom set uses fixed size images. I'm working on making them scalable.
 
-The Android Emoji is scalable because it's a font. If the fixed size Emoji don't work for you, consider using that.
+The default size is 32px, but you can use 25px and 64px icons by adding the css class `emoji-64` or `emoji-25` on any HTML element in your theme.
 
+= Will you support Apple style icons? =
+
+No. They are copyright of Apple, so I can't distribute them
+
+= What browsers does it support? =
+
+Modern browsers that support `inline-block` and web fonts should work for the Android and Phantom themes. 
+
+Internet Explorer 8 and below has some issues at the moment. I"m working on it.
 
 = Are these FAQs complete? =
 
@@ -61,6 +76,17 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 
 = 1.0.0 =
 * First version released
+
+= 1.0.1 =
+* Added preview table
+
+= 1.0.2 =
+* Added 32px and 64px phantom sets
+
+= 1.0.3 =
+* Added TinyMCE editor Emoji chooser
+* Compressed JavaScript
+
 
 == Credits ==
 

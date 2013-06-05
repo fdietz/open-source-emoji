@@ -18,3 +18,13 @@
     font-family: 'AndroidEmoji';
     font-size: 1.2em;
 }
+
+/* mirror pixel size overrides */
+
+.emoji-64 .emojified .emoji {
+    font-size: 65px;
+}
+
+.emoji-25 .emojified .emoji {
+    font-size: 26px;
+}
