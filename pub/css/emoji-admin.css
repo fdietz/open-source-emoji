@@ -3,7 +3,7 @@
  */
 
 table.os-emoji {
-    width: 967px;
+    width: 100%;
 }
 
 table.os-emoji td {
@@ -26,4 +26,7 @@ table.os-emoji td a:hover {
 }
 
 
-
+/* tinymce editor */
+.wp_themeSkin span.mceIcon.mce_os_emoji {
+    background: transparent url(../../mce/plugin.png) 0 0 no-repeat;
+}

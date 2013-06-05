@@ -36,7 +36,7 @@ This plugin converts Emoji appearing anywhere on your pages, but Wordpress won't
 
 To enter Emoji characters into your posts, use the [emoji ..] shortcode with the name of the Emoji following it. e.g. `[emoji cat face]`.
 
-Vist the *Settings > OS Emoji* admin page to see all the supported shortcodes.
+When editing a post you will see a pink smiling face icon in the first row of buttons in the text editor - click this to insert Emoji shortcodes.
 
 
 == Frequently Asked Questions ==
@@ -82,6 +82,10 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 
 = 1.0.2 =
 * Added 32px and 64px phantom sets
+
+= 1.0.3 =
+* Added TinyMCE editor Emoji chooser
+
 
 == Credits ==
 

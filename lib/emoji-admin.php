@@ -157,7 +157,30 @@ function os_emoji_admin_init(){
         $redirect = os_emoji_admin_base_uri().'&updated='.$conf['theme'];
         return wp_redirect( $redirect );
     }
+    // modify tinymce editor
+    //if ( get_user_option('rich_editing') == 'true') {
+    add_filter("mce_external_plugins", 'os_emoji_filter_mce_external_plugins');
+    add_filter('mce_buttons', 'os_emoji_filter_mce_buttons');
 }
+
+
+/**
+ * Add tinymce plugin
+ */
+function os_emoji_filter_mce_external_plugins( $plugins ) {
+    $plugins['os_emoji'] = plugins_url( 'mce/plugin.js', os_emoji_basedir().'/emoji.php' );
+    return $plugins;
+}
+ 
+
+/**
+ * Register button for tinymce plugin
+ */
+function os_emoji_filter_mce_buttons( $buttons ) {
+    array_push( $buttons, 'separator', 'os_emoji');
+    return $buttons;
+}
+
  
 
 /**
@@ -184,8 +207,8 @@ function os_emoji_admin_enqueue_scripts(){
  */
 function os_emoji_admin_menu() {
     $hook = add_options_page( __('Open Source Emoji Settings'), __('OS Emoji'), 'manage_options', 'os-emoji-admin', 'os_emoji_admin_render_page');
-    add_action('admin_print_styles-'.$hook, 'os_emoji_admin_enqueue_styles' );
-    add_action('admin_print_scripts-'.$hook, 'os_emoji_admin_enqueue_scripts' );
+    add_action('admin_print_styles', 'os_emoji_admin_enqueue_styles' );
+    add_action('admin_print_scripts', 'os_emoji_admin_enqueue_scripts' );
 }
 
 
