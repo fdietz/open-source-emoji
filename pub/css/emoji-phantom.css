@@ -18,6 +18,7 @@
 }
 
 /* 64px override */
+h1 .emojified .emoji,
 .emoji-64 .emojified .emoji {
     background-image: url(../img/emoji-phantom-64.tiny.png);
     padding: 0 0 0 65px;
@@ -25,6 +26,7 @@
 }
 
 /* 25px override */
+small .emojified .emoji,
 .emoji-25 .emojified .emoji {
     background-image: url(../img/emoji-phantom-25.tiny.png);
     padding: 0 0 0 26px;

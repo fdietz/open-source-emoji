@@ -72,6 +72,14 @@ Internet Explorer 8 and below has some issues at the moment. I"m working on it.
 No. I'm working on them. Feel free to ask a question in the Support tab, or on [Twitter](https://twitter.com/timwhitlock)
 
 
+== Screenshots ==
+
+1. Post edit screen shows Emoji toolbar widget and shortcodes entered.
+2. Rendered post with Phantom theme enabled.
+3. Rendered post with Androind theme enabled.
+4. Settings screen with theme options.
+
+
 == Changelog ==
 
 = 1.0.0 =
@@ -86,6 +94,10 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 = 1.0.3 =
 * Added TinyMCE editor Emoji chooser
 * Compressed JavaScript
+
+= 1.0.4 =
+* Added screenshots
+* Added `H1` and `small` CSS contexts
 
 
 == Credits ==
