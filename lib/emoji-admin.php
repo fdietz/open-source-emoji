@@ -168,7 +168,7 @@ function os_emoji_admin_init(){
  * Add tinymce plugin
  */
 function os_emoji_filter_mce_external_plugins( $plugins ) {
-    $plugins['os_emoji'] = plugins_url( 'mce/plugin.min.js', os_emoji_basedir().'/emoji.php' );
+    $plugins['os_emoji'] = os_emoji_baseurl().'/mce/plugin.min.js';
     return $plugins;
 }
  
@@ -187,7 +187,7 @@ function os_emoji_filter_mce_buttons( $buttons ) {
  * enqueue admin css
  */
 function os_emoji_admin_enqueue_styles(){
-    $css = plugins_url( 'pub/css/emoji-admin.css', os_emoji_basedir().'/emoji.php' );
+    $css = os_emoji_baseurl().'/pub/css/emoji-admin.css';
     wp_enqueue_style( 'os-emoji-admin-css', $css );
 }
  
@@ -197,7 +197,7 @@ function os_emoji_admin_enqueue_styles(){
  */
 function os_emoji_admin_enqueue_scripts(){
     os_emoji_enqueue_scripts();
-    $js = plugins_url( 'pub/js/admin.min.js', os_emoji_basedir().'/emoji.php' );
+    $js = os_emoji_baseurl().'/pub/js/admin.min.js';
     wp_enqueue_script( 'os-emoji-admin-js', $js, array('jquery'), false, true );
 }
 

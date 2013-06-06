@@ -99,6 +99,9 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 * Added screenshots
 * Added `H1` and `small` CSS contexts
 
+= 1.0.5 =
+* fix for symlinks in resolving urls
+
 
 == Credits ==
 
