@@ -227,12 +227,16 @@
         //log('Emojified: '+emojifyCount);
         
         // load CSS and Emoji fonts if needed and not already loaded
-        if( emojifyCount && ! window.OSEmojiLoaded ){
-            var link = createElement('','','link');
+        if( emojifyCount && window.OSEmojiLoaded !== confTheme ){
+            var id = 'osemojicss',
+                link = document.getElementById(id);
+            link && head.removeChild(link);         
+            link = createElement('','','link');
             link.setAttribute('href', confScript.replace(/\/js\/emoji(\.min)?\.js/,'/css/emoji-'+confTheme+'.css') );
             link.setAttribute('rel','stylesheet');
+            link.setAttribute('id', id );
             head.appendChild( link );
-            window.OSEmojiLoaded = true;
+            window.OSEmojiLoaded = confTheme;
         }
     
     }
