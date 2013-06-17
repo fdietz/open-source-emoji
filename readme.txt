@@ -4,7 +4,7 @@ Donate link: http://timwhitlock.info/donate-to-a-project/
 Tags: emoji, emoticons, icons, android, phantom, shortcode, unicode
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,9 +20,7 @@ All Emoji in your pages are converted to visible icons, even on devices that don
 
 Add Emoji to your posts using shortcodes like `[emoji hamburger]`
 
-
-Built by [timwhitlock](https://twitter.com/timwhitlock)
-
+Built by <a href="//twitter.com/timwhitlock">@timwhitlock</a> / <a rel="author" href="https://plus.google.com/106703751121449519322">Tim Whitlock</a>
 
 == Installation ==
 
