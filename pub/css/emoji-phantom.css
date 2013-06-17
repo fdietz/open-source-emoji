@@ -2,180 +2,202 @@
  * Phantom Emoji theme
  */
 
+
 .emojified .emoji {
+    display: none;
     display: inline-block;
+    vertical-align: middle;
     width: 0;
-    padding: 0 0 0 22px;
-    height: 22px;
+    font-size: 1px;
     background-repeat: no-repeat; 
     overflow: hidden;
-    background-image: url(../img/emoji-phantom-22.tiny.png);
+    /* 32 pixels by default */
+    background-image: url(../img/emoji-phantom-32.tiny.png);
+    padding: 0 0 0 33px;
+    height: 33px;
+}
+
+/* 64px override */
+h1 .emojified .emoji,
+.emoji-64 .emojified .emoji {
+    background-image: url(../img/emoji-phantom-64.tiny.png);
+    padding: 0 0 0 65px;
+    height: 65px;
+}
+
+/* 25px override */
+small .emojified .emoji,
+.emoji-25 .emojified .emoji {
+    background-image: url(../img/emoji-phantom-25.tiny.png);
+    padding: 0 0 0 26px;
+    height: 26px;
 }
 
 
 
-/* 22px sprite */
-.emoji-anchor { background-position: -0px -25px; }
-.emoji-angry_face { background-position: -0px -50px; }
-.emoji-anguished { background-position: -0px -74px; }
-.emoji-assault_rifle { background-position: -0px -99px; }
-.emoji-astonished_face { background-position: -0px -124px; }
-.emoji-bactrian_camel { background-position: -0px -148px; }
-.emoji-bento_box { background-position: -0px -173px; }
-.emoji-blowfish { background-position: -0px -198px; }
-.emoji-blush { background-position: -0px -222px; }
-.emoji-boar { background-position: -0px -247px; }
-.emoji-bowtie { background-position: -0px -272px; }
-.emoji-bus_stop { background-position: -0px -296px; }
-.emoji-cactus { background-position: -0px -321px; }
-.emoji-cake { background-position: -0px -346px; }
-.emoji-cancer { background-position: -0px -370px; }
-.emoji-car { background-position: -0px -395px; }
-.emoji-cat_face { background-position: -0px -420px; }
-.emoji-cat_face_with_tears_of_joy { background-position: -0px -444px; }
-.emoji-cat_face_with_wry_smile { background-position: -0px -469px; }
-.emoji-chicken { background-position: -0px -494px; }
-.emoji-circled_ideograph_secret { background-position: -0px -518px; }
-.emoji-cloud { background-position: -0px -543px; }
-.emoji-confused { background-position: -0px -568px; }
-.emoji-couple_holding_hands { background-position: -0px -592px; }
-.emoji-couple_in_love { background-position: -0px -617px; }
-.emoji-couple_with_heart { background-position: -0px -642px; }
-.emoji-crescent_moon { background-position: -0px -666px; }
-.emoji-crying_cat_face { background-position: -0px -691px; }
-.emoji-crying_face { background-position: -0px -716px; }
-.emoji-cyclone { background-position: -0px -740px; }
-.emoji-disappointed_but_relieved_face { background-position: -0px -765px; }
-.emoji-disappointed_face { background-position: -0px -790px; }
-.emoji-dizzy_face { background-position: -0px -814px; }
-.emoji-dog_face { background-position: -0px -839px; }
-.emoji-drunk { background-position: -0px -864px; }
-.emoji-elephant { background-position: -0px -888px; }
-.emoji-expressionless { background-position: -0px -913px; }
-.emoji-extraterrestrial_alien { background-position: -0px -938px; }
-.emoji-face_savouring_delicious_food { background-position: -0px -962px; }
-.emoji-face_with_look_of_triumph { background-position: -0px -987px; }
-.emoji-face_with_medical_mask { background-position: -0px -1012px; }
-.emoji-face_with_no_good_gesture { background-position: -0px -1036px; }
-.emoji-face_with_ok_gesture { background-position: -0px -1061px; }
-.emoji-face_with_open_mouth_and_cold_sweat { background-position: -0px -1086px; }
-.emoji-face_with_tear_of_joy { background-position: -0px -1110px; }
-.emoji-family { background-position: -0px -1135px; }
-.emoji-family_daughters { background-position: -0px -1160px; }
-.emoji-fearful_face { background-position: -0px -1184px; }
-.emoji-first_quarter_moon { background-position: -0px -1209px; }
-.emoji-fish_cake_with_swirl_design { background-position: -0px -1234px; }
-.emoji-flushed { background-position: -0px -1258px; }
-.emoji-frog_face { background-position: -0px -1283px; }
-.emoji-frowning { background-position: -0px -1308px; }
-.emoji-full_moon { background-position: -0px -1332px; }
-.emoji-genshin { background-position: -0px -1357px; }
-.emoji-ghost { background-position: -0px -1382px; }
-.emoji-glowing_star { background-position: -0px -1406px; }
-.emoji-grimacing { background-position: -0px -1431px; }
-.emoji-grin { background-position: -0px -1456px; }
-.emoji-grinning { background-position: -0px -1480px; }
-.emoji-grinning_cat_face_with_smiling_eyes { background-position: -0px -1505px; }
-.emoji-groupme { background-position: -0px -1530px; }
-.emoji-guitar { background-position: -0px -1554px; }
-.emoji-hamburger { background-position: -0px -1579px; }
-.emoji-happijar { background-position: -0px -1604px; }
-.emoji-happy_person_raising_one_hand { background-position: -0px -1628px; }
-.emoji-hatching_chick { background-position: -0px -1653px; }
-.emoji-hear_no_evil_monkey { background-position: -0px -1678px; }
-.emoji-heart { background-position: -0px -1702px; }
-.emoji-heart_eyes { background-position: -0px -1727px; }
-.emoji-high_voltage_sign { background-position: -0px -1752px; }
-.emoji-horse { background-position: -0px -1776px; }
-.emoji-hot_beverage { background-position: -0px -1801px; }
-.emoji-hushed { background-position: -0px -1826px; }
-.emoji-jack_o_lantern { background-position: -0px -1850px; }
-.emoji-jumping_spider { background-position: -0px -1875px; }
-.emoji-jumping_spider_red { background-position: -0px -1900px; }
-.emoji-kagetsuki { background-position: -0px -1924px; }
-.emoji-kissing { background-position: -0px -1949px; }
-.emoji-kissing_cat_face_with_closed_eyes { background-position: -0px -1974px; }
-.emoji-kissing_closed_eyes { background-position: -0px -1998px; }
-.emoji-kissing_heart { background-position: -0px -2023px; }
-.emoji-kissing_smiling_eyes { background-position: -0px -2048px; }
-.emoji-koala { background-position: -0px -2072px; }
-.emoji-last_quarter_moon { background-position: -0px -2097px; }
-.emoji-laughing { background-position: -0px -2122px; }
-.emoji-loudly_crying_face { background-position: -0px -2146px; }
-.emoji-love_hotel { background-position: -0px -2171px; }
-.emoji-mens_symbol { background-position: -0px -2196px; }
-.emoji-microphone { background-position: -0px -2220px; }
-.emoji-milky_way { background-position: -0px -2245px; }
-.emoji-moon_with_face { background-position: -0px -2270px; }
-.emoji-mount_fuji { background-position: -0px -2294px; }
-.emoji-new_moon { background-position: -0px -2319px; }
-.emoji-ninja { background-position: -0px -2344px; }
-.emoji-no_one_under_eighteen_symbol { background-position: -0px -2368px; }
-.emoji-octopus { background-position: -0px -2393px; }
-.emoji-open_mouth { background-position: -0px -2418px; }
-.emoji-paw_prints { background-position: -0px -2442px; }
-.emoji-penguin { background-position: -0px -2467px; }
-.emoji-pensive_face { background-position: -0px -2492px; }
-.emoji-persevering_face { background-position: -0px -2516px; }
-.emoji-person_bowing_deeply { background-position: -0px -2541px; }
-.emoji-person_frowning { background-position: -0px -2566px; }
-.emoji-person_raising_both_hands_in_celebration { background-position: -0px -2590px; }
-.emoji-person_with_folded_hands { background-position: -0px -2615px; }
-.emoji-person_with_pouting_face { background-position: -0px -2640px; }
-.emoji-pill { background-position: -0px -2664px; }
-.emoji-pistol { background-position: -0px -2689px; }
-.emoji-pizza { background-position: -0px -2714px; }
-.emoji-poop { background-position: -0px -2738px; }
-.emoji-pouting_cat_face { background-position: -0px -2763px; }
-.emoji-pouting_face { background-position: -0px -2788px; }
-.emoji-rainbow { background-position: -0px -2812px; }
-.emoji-rainbow_sky { background-position: -0px -2837px; }
-.emoji-rainbow_solid { background-position: -0px -2862px; }
-.emoji-relaxed { background-position: -0px -2886px; }
-.emoji-relieved { background-position: -0px -2911px; }
-.emoji-rice_ball { background-position: -0px -2936px; }
-.emoji-ruby { background-position: -0px -2960px; }
-.emoji-RV { background-position: -0px -2985px; }
-.emoji-satisfied { background-position: -0px -3010px; }
-.emoji-see_no_evil_monkey { background-position: -0px -3034px; }
-.emoji-ship { background-position: -0px -3059px; }
-.emoji-shooting_star { background-position: -0px -3084px; }
-.emoji-skull { background-position: -0px -3108px; }
-.emoji-sleeping { background-position: -0px -3133px; }
-.emoji-smile { background-position: -0px -3158px; }
-.emoji-smiley { background-position: -0px -3182px; }
-.emoji-smiling_cat_face_with_heart_shaped_eyes { background-position: -0px -3207px; }
-.emoji-smiling_cat_face_with_open_mouth { background-position: -0px -3232px; }
-.emoji-smiling_face { background-position: -0px -3256px; }
-.emoji-smirk { background-position: -0px -3281px; }
-.emoji-snail { background-position: -0px -3306px; }
-.emoji-snake { background-position: -0px -3330px; }
-.emoji-snowboarder { background-position: -0px -3355px; }
-.emoji-speak_no_evil_monkey { background-position: -0px -3380px; }
-.emoji-spouting_whale { background-position: -0px -3404px; }
-.emoji-stuck_out_tongue { background-position: -0px -3429px; }
-.emoji-stuck_out_tongue_closed_eyes { background-position: -0px -3454px; }
-.emoji-stuck_out_tongue_winking_eye { background-position: -0px -3478px; }
-.emoji-sun { background-position: -0px -3503px; }
-.emoji-sun_with_face { background-position: -0px -3528px; }
-.emoji-sweat { background-position: -0px -3552px; }
-.emoji-sweat_smile { background-position: -0px -3577px; }
-.emoji-tangerine { background-position: -0px -3602px; }
-.emoji-tennis_racquet_and_ball { background-position: -0px -3626px; }
-.emoji-thumbs_up_sign { background-position: -0px -3651px; }
-.emoji-two_men_holding_hands { background-position: -0px -3676px; }
-.emoji-two_men_in_love { background-position: -0px -3700px; }
-.emoji-two_men_with_heart { background-position: -0px -3725px; }
-.emoji-two_women_holding_hands { background-position: -0px -3750px; }
-.emoji-two_women_in_love { background-position: -0px -3774px; }
-.emoji-two_women_with_heart { background-position: -0px -3799px; }
-.emoji-unamused { background-position: -0px -3824px; }
-.emoji-victory_hand { background-position: -0px -3848px; }
-.emoji-video_game { background-position: -0px -3873px; }
-.emoji-waxing_gibbous_moon { background-position: -0px -3898px; }
-.emoji-weary_cat_face { background-position: -0px -3922px; }
-.emoji-weary_face { background-position: -0px -3947px; }
-.emoji-wink { background-position: -0px -3972px; }
-.emoji-wink2 { background-position: -0px -3996px; }
-.emoji-wolf_face { background-position: -0px -4021px; }
-.emoji-worried { background-position: -0px -4046px; }
+
+/* sprite */
+.emoji-anchor { background-position: 9.103641% 0; }
+.emoji-angry_face { background-position: 18.207283% 0; }
+.emoji-anguished { background-position: 27.310924% 0; }
+.emoji-assault_rifle { background-position: 36.414566% 0; }
+.emoji-astonished_face { background-position: 45.518207% 0; }
+.emoji-bactrian_camel { background-position: 54.621849% 0; }
+.emoji-bento_box { background-position: 63.725490% 0; }
+.emoji-blowfish { background-position: 72.829132% 0; }
+.emoji-blush { background-position: 81.932773% 0; }
+.emoji-boar { background-position: 91.036415% 0; }
+.emoji-bowtie { background-position: 100.140056% 0; }
+.emoji-bus_stop { background-position: 0 7.701422%; }
+.emoji-cactus { background-position: 9.103641% 7.701422%; }
+.emoji-cake { background-position: 18.207283% 7.701422%; }
+.emoji-cancer { background-position: 27.310924% 7.701422%; }
+.emoji-car { background-position: 36.414566% 7.701422%; }
+.emoji-cat_face { background-position: 45.518207% 7.701422%; }
+.emoji-cat_face_with_tears_of_joy { background-position: 54.621849% 7.701422%; }
+.emoji-cat_face_with_wry_smile { background-position: 63.725490% 7.701422%; }
+.emoji-chicken { background-position: 72.829132% 7.701422%; }
+.emoji-circled_ideograph_secret { background-position: 81.932773% 7.701422%; }
+.emoji-cloud { background-position: 91.036415% 7.701422%; }
+.emoji-confused { background-position: 100.140056% 7.701422%; }
+.emoji-couple_holding_hands { background-position: 0 15.402844%; }
+.emoji-couple_in_love { background-position: 9.103641% 15.402844%; }
+.emoji-couple_with_heart { background-position: 18.207283% 15.402844%; }
+.emoji-crescent_moon { background-position: 27.310924% 15.402844%; }
+.emoji-crying_cat_face { background-position: 36.414566% 15.402844%; }
+.emoji-crying_face { background-position: 45.518207% 15.402844%; }
+.emoji-cyclone { background-position: 54.621849% 15.402844%; }
+.emoji-disappointed_but_relieved_face { background-position: 63.725490% 15.402844%; }
+.emoji-disappointed_face { background-position: 72.829132% 15.402844%; }
+.emoji-dizzy_face { background-position: 81.932773% 15.402844%; }
+.emoji-dog_face { background-position: 91.036415% 15.402844%; }
+.emoji-drunk { background-position: 100.140056% 15.402844%; }
+.emoji-elephant { background-position: 0 23.104265%; }
+.emoji-expressionless { background-position: 9.103641% 23.104265%; }
+.emoji-extraterrestrial_alien { background-position: 18.207283% 23.104265%; }
+.emoji-face_savouring_delicious_food { background-position: 27.310924% 23.104265%; }
+.emoji-face_with_look_of_triumph { background-position: 36.414566% 23.104265%; }
+.emoji-face_with_medical_mask { background-position: 45.518207% 23.104265%; }
+.emoji-face_with_no_good_gesture { background-position: 54.621849% 23.104265%; }
+.emoji-face_with_ok_gesture { background-position: 63.725490% 23.104265%; }
+.emoji-face_with_open_mouth_and_cold_sweat { background-position: 72.829132% 23.104265%; }
+.emoji-face_with_tear_of_joy { background-position: 81.932773% 23.104265%; }
+.emoji-family { background-position: 91.036415% 23.104265%; }
+.emoji-family_daughters { background-position: 100.140056% 23.104265%; }
+.emoji-fearful_face { background-position: 0 30.805687%; }
+.emoji-first_quarter_moon { background-position: 9.103641% 30.805687%; }
+.emoji-fish_cake_with_swirl_design { background-position: 18.207283% 30.805687%; }
+.emoji-flushed { background-position: 27.310924% 30.805687%; }
+.emoji-frog_face { background-position: 36.414566% 30.805687%; }
+.emoji-frowning { background-position: 45.518207% 30.805687%; }
+.emoji-full_moon { background-position: 54.621849% 30.805687%; }
+.emoji-genshin { background-position: 63.725490% 30.805687%; }
+.emoji-ghost { background-position: 72.829132% 30.805687%; }
+.emoji-glowing_star { background-position: 81.932773% 30.805687%; }
+.emoji-grimacing { background-position: 91.036415% 30.805687%; }
+.emoji-grin { background-position: 100.140056% 30.805687%; }
+.emoji-grinning { background-position: 0 38.507109%; }
+.emoji-grinning_cat_face_with_smiling_eyes { background-position: 9.103641% 38.507109%; }
+.emoji-groupme { background-position: 18.207283% 38.507109%; }
+.emoji-guitar { background-position: 27.310924% 38.507109%; }
+.emoji-hamburger { background-position: 36.414566% 38.507109%; }
+.emoji-happijar { background-position: 45.518207% 38.507109%; }
+.emoji-happy_person_raising_one_hand { background-position: 54.621849% 38.507109%; }
+.emoji-hatching_chick { background-position: 63.725490% 38.507109%; }
+.emoji-hear_no_evil_monkey { background-position: 72.829132% 38.507109%; }
+.emoji-heart { background-position: 81.932773% 38.507109%; }
+.emoji-heart_eyes { background-position: 91.036415% 38.507109%; }
+.emoji-high_voltage_sign { background-position: 100.140056% 38.507109%; }
+.emoji-horse { background-position: 0 46.208531%; }
+.emoji-hot_beverage { background-position: 9.103641% 46.208531%; }
+.emoji-hushed { background-position: 18.207283% 46.208531%; }
+.emoji-jack_o_lantern { background-position: 27.310924% 46.208531%; }
+.emoji-jumping_spider { background-position: 36.414566% 46.208531%; }
+.emoji-jumping_spider_red { background-position: 45.518207% 46.208531%; }
+.emoji-kagetsuki { background-position: 54.621849% 46.208531%; }
+.emoji-kissing { background-position: 63.725490% 46.208531%; }
+.emoji-kissing_cat_face_with_closed_eyes { background-position: 72.829132% 46.208531%; }
+.emoji-kissing_closed_eyes { background-position: 81.932773% 46.208531%; }
+.emoji-kissing_heart { background-position: 91.036415% 46.208531%; }
+.emoji-kissing_smiling_eyes { background-position: 100.140056% 46.208531%; }
+.emoji-koala { background-position: 0 53.909953%; }
+.emoji-last_quarter_moon { background-position: 9.103641% 53.909953%; }
+.emoji-laughing { background-position: 18.207283% 53.909953%; }
+.emoji-loudly_crying_face { background-position: 27.310924% 53.909953%; }
+.emoji-love_hotel { background-position: 36.414566% 53.909953%; }
+.emoji-mens_symbol { background-position: 45.518207% 53.909953%; }
+.emoji-microphone { background-position: 54.621849% 53.909953%; }
+.emoji-milky_way { background-position: 63.725490% 53.909953%; }
+.emoji-moon_with_face { background-position: 72.829132% 53.909953%; }
+.emoji-mount_fuji { background-position: 81.932773% 53.909953%; }
+.emoji-new_moon { background-position: 91.036415% 53.909953%; }
+.emoji-ninja { background-position: 100.140056% 53.909953%; }
+.emoji-no_one_under_eighteen_symbol { background-position: 0 61.611374%; }
+.emoji-octopus { background-position: 9.103641% 61.611374%; }
+.emoji-open_mouth { background-position: 18.207283% 61.611374%; }
+.emoji-paw_prints { background-position: 27.310924% 61.611374%; }
+.emoji-penguin { background-position: 36.414566% 61.611374%; }
+.emoji-pensive_face { background-position: 45.518207% 61.611374%; }
+.emoji-persevering_face { background-position: 54.621849% 61.611374%; }
+.emoji-person_bowing_deeply { background-position: 63.725490% 61.611374%; }
+.emoji-person_frowning { background-position: 72.829132% 61.611374%; }
+.emoji-person_raising_both_hands_in_celebration { background-position: 81.932773% 61.611374%; }
+.emoji-person_with_folded_hands { background-position: 91.036415% 61.611374%; }
+.emoji-person_with_pouting_face { background-position: 100.140056% 61.611374%; }
+.emoji-pill { background-position: 0 69.312796%; }
+.emoji-pistol { background-position: 9.103641% 69.312796%; }
+.emoji-pizza { background-position: 18.207283% 69.312796%; }
+.emoji-poop { background-position: 27.310924% 69.312796%; }
+.emoji-pouting_cat_face { background-position: 36.414566% 69.312796%; }
+.emoji-pouting_face { background-position: 45.518207% 69.312796%; }
+.emoji-rainbow { background-position: 54.621849% 69.312796%; }
+.emoji-rainbow_sky { background-position: 63.725490% 69.312796%; }
+.emoji-rainbow_solid { background-position: 72.829132% 69.312796%; }
+.emoji-relaxed { background-position: 81.932773% 69.312796%; }
+.emoji-relieved { background-position: 91.036415% 69.312796%; }
+.emoji-rice_ball { background-position: 100.140056% 69.312796%; }
+.emoji-ruby { background-position: 0 77.014218%; }
+.emoji-RV { background-position: 9.103641% 77.014218%; }
+.emoji-satisfied { background-position: 18.207283% 77.014218%; }
+.emoji-see_no_evil_monkey { background-position: 27.310924% 77.014218%; }
+.emoji-ship { background-position: 36.414566% 77.014218%; }
+.emoji-shooting_star { background-position: 45.518207% 77.014218%; }
+.emoji-skull { background-position: 54.621849% 77.014218%; }
+.emoji-sleeping { background-position: 63.725490% 77.014218%; }
+.emoji-smile { background-position: 72.829132% 77.014218%; }
+.emoji-smiley { background-position: 81.932773% 77.014218%; }
+.emoji-smiling_cat_face_with_heart_shaped_eyes { background-position: 91.036415% 77.014218%; }
+.emoji-smiling_cat_face_with_open_mouth { background-position: 100.140056% 77.014218%; }
+.emoji-smiling_face { background-position: 0 84.715640%; }
+.emoji-smirk { background-position: 9.103641% 84.715640%; }
+.emoji-snail { background-position: 18.207283% 84.715640%; }
+.emoji-snake { background-position: 27.310924% 84.715640%; }
+.emoji-snowboarder { background-position: 36.414566% 84.715640%; }
+.emoji-speak_no_evil_monkey { background-position: 45.518207% 84.715640%; }
+.emoji-spouting_whale { background-position: 54.621849% 84.715640%; }
+.emoji-stuck_out_tongue { background-position: 63.725490% 84.715640%; }
+.emoji-stuck_out_tongue_closed_eyes { background-position: 72.829132% 84.715640%; }
+.emoji-stuck_out_tongue_winking_eye { background-position: 81.932773% 84.715640%; }
+.emoji-sun { background-position: 91.036415% 84.715640%; }
+.emoji-sun_with_face { background-position: 100.140056% 84.715640%; }
+.emoji-sweat { background-position: 0 92.417062%; }
+.emoji-sweat_smile { background-position: 9.103641% 92.417062%; }
+.emoji-tangerine { background-position: 18.207283% 92.417062%; }
+.emoji-tennis_racquet_and_ball { background-position: 27.310924% 92.417062%; }
+.emoji-thumbs_up_sign { background-position: 36.414566% 92.417062%; }
+.emoji-two_men_holding_hands { background-position: 45.518207% 92.417062%; }
+.emoji-two_men_in_love { background-position: 54.621849% 92.417062%; }
+.emoji-two_men_with_heart { background-position: 63.725490% 92.417062%; }
+.emoji-two_women_holding_hands { background-position: 72.829132% 92.417062%; }
+.emoji-two_women_in_love { background-position: 81.932773% 92.417062%; }
+.emoji-two_women_with_heart { background-position: 91.036415% 92.417062%; }
+.emoji-unamused { background-position: 100.140056% 92.417062%; }
+.emoji-victory_hand { background-position: 0 100.118483%; }
+.emoji-video_game { background-position: 9.103641% 100.118483%; }
+.emoji-waxing_gibbous_moon { background-position: 18.207283% 100.118483%; }
+.emoji-weary_cat_face { background-position: 27.310924% 100.118483%; }
+.emoji-weary_face { background-position: 36.414566% 100.118483%; }
+.emoji-wink { background-position: 45.518207% 100.118483%; }
+.emoji-wink2 { background-position: 54.621849% 100.118483%; }
+.emoji-wolf_face { background-position: 63.725490% 100.118483%; }
+.emoji-worried { background-position: 72.829132% 100.118483%; }
