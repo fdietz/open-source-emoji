@@ -78,27 +78,37 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 4. Settings screen with theme options.
 
 
+== Upgrade Notice ==
+
+= 1.0.5 =
+* Various bugfixes and improvements
+
+
 == Changelog ==
 
-= 1.0.0 =
-* First version released
+= 1.0.6 =
+* Added 26 new Phantom Emoji
 
-= 1.0.1 =
-* Added preview table
-
-= 1.0.2 =
-* Added 32px and 64px phantom sets
-
-= 1.0.3 =
-* Added TinyMCE editor Emoji chooser
-* Compressed JavaScript
+= 1.0.5 =
+* fix for symlinks in resolving urls
 
 = 1.0.4 =
 * Added screenshots
 * Added `H1` and `small` CSS contexts
 
-= 1.0.5 =
-* fix for symlinks in resolving urls
+= 1.0.3 =
+* Added TinyMCE editor Emoji chooser
+* Compressed JavaScript
+
+= 1.0.2 =
+* Added 32px and 64px phantom sets
+
+= 1.0.1 =
+* Added preview table
+
+= 1.0.0 =
+* First version released
+
 
 
 == Credits ==
