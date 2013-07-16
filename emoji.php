@@ -4,9 +4,13 @@ Plugin Name: Open Source Emoji
 Plugin URI: http://wordpress.org/extend/plugins/open-source-emoji/
 Description: Open Source Emoji - add Android and Phantom Emoji to your blog for all devices.
 Author: Tim Whitlock
-Version: 1.0.5
+Version: 1.0.6
 Author URI: http://timwhitlock.info/
 */
+
+
+
+define( 'OS_EMOJI_VERSION', '1.0.6' );
 
 
 
@@ -129,7 +133,7 @@ function os_emoji_enqueue_scripts(){
     }
     extract( _os_emoji_config() );
     $js = os_emoji_baseurl().'/pub/js/emoji.min.js?theme='.apply_filters( 'emoji_theme', $theme );
-    wp_enqueue_script( $hook, $js, array(), false, true );    
+    wp_enqueue_script( $hook, $js, array(), OS_EMOJI_VERSION, true );    
 }
 
 

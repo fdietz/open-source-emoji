@@ -198,7 +198,7 @@ function os_emoji_admin_enqueue_styles(){
 function os_emoji_admin_enqueue_scripts(){
     os_emoji_enqueue_scripts();
     $js = os_emoji_baseurl().'/pub/js/admin.min.js';
-    wp_enqueue_script( 'os-emoji-admin-js', $js, array('jquery'), false, true );
+    wp_enqueue_script( 'os-emoji-admin-js', $js, array('jquery'), OS_EMOJI_VERSION, true );
 }
 
 

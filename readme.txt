@@ -4,7 +4,7 @@ Donate link: http://timwhitlock.info/donate-to-a-project/
 Tags: emoji, emoticons, icons, android, phantom, shortcode, unicode
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,27 +78,37 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 4. Settings screen with theme options.
 
 
+== Upgrade Notice ==
+
+= 1.0.6 =
+* Added latest Phantom emoji
+
+
 == Changelog ==
 
-= 1.0.0 =
-* First version released
+= 1.0.6 =
+* Added latest Phantom emoji
 
-= 1.0.1 =
-* Added preview table
-
-= 1.0.2 =
-* Added 32px and 64px phantom sets
-
-= 1.0.3 =
-* Added TinyMCE editor Emoji chooser
-* Compressed JavaScript
+= 1.0.5 =
+* fix for symlinks in resolving urls
 
 = 1.0.4 =
 * Added screenshots
 * Added `H1` and `small` CSS contexts
 
-= 1.0.5 =
-* fix for symlinks in resolving urls
+= 1.0.3 =
+* Added TinyMCE editor Emoji chooser
+* Compressed JavaScript
+
+= 1.0.2 =
+* Added 32px and 64px phantom sets
+
+= 1.0.1 =
+* Added preview table
+
+= 1.0.0 =
+* First version released
+
 
 
 == Credits ==
