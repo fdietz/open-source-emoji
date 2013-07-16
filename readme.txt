@@ -4,7 +4,7 @@ Donate link: http://timwhitlock.info/donate-to-a-project/
 Tags: emoji, emoticons, icons, android, phantom, shortcode, unicode
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,14 +80,14 @@ No. I'm working on them. Feel free to ask a question in the Support tab, or on [
 
 == Upgrade Notice ==
 
-= 1.0.5 =
-* Various bugfixes and improvements
+= 1.0.6 =
+* Added latest Phantom emoji
 
 
 == Changelog ==
 
 = 1.0.6 =
-* Added 26 new Phantom Emoji
+* Added latest Phantom emoji
 
 = 1.0.5 =
 * fix for symlinks in resolving urls

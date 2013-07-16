@@ -10,6 +10,10 @@ Author URI: http://timwhitlock.info/
 
 
 
+define( 'OS_EMOJI_VERSION', '1.0.6' );
+
+
+
 /**
  * Get plugin local base directory in case __DIR__ isn't available (php<5.3)
  */
@@ -129,7 +133,7 @@ function os_emoji_enqueue_scripts(){
     }
     extract( _os_emoji_config() );
     $js = os_emoji_baseurl().'/pub/js/emoji.min.js?theme='.apply_filters( 'emoji_theme', $theme );
-    wp_enqueue_script( $hook, $js, array(), false, true );    
+    wp_enqueue_script( $hook, $js, array(), OS_EMOJI_VERSION, true );    
 }
 
 
